@@ -24,6 +24,7 @@
 </head>
 <body>
     <div class="snap-y lg:snap-y snap-mandatory h-screen w-screen overflow-scroll">
+        <!-- Header/Navbar -->
         <div id="home" class="h-screen lg:snap-start lg:h-screen dark:bg-gray-900">
             <nav class="bg-white dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -58,16 +59,16 @@
                 </div>
                 </div>
             </nav>
-            <!-- add hero/banner -->
+
+            <!-- hero/banner -->
             
-            <section class="bg-center h-screen lg:bg-cover bg-[url(./images/hero.jpeg)] bg-gray-700 bg-blend-multiply">
-                <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-80">
+            <section class="bg-center h-screen bg-[length:1400px] lg:bg-cover bg-[url(./images/hero.jpeg)] bg-gray-700 bg-blend-multiply">
+                <div class="my-auto h-screen px-4 mx-auto max-w-screen-xl text-center py-48 lg:py-80">
                     <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-8xl">John Dallas Moore</h1>
                     <p class="mb-8 text-lg font-normal text-gray-300 lg:text-3xl sm:px-16 lg:px-48">Full Stack Web Developer</p>
                     <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                         <a href="#about" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                             About Me
-                            <!-- <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> -->
                         </a>
                         <a href="#projects" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
                             Projects
@@ -78,7 +79,7 @@
     
         </div>
       
-        <!-- add about me -->
+        <!-- about me -->
         <div id="about" class="lg:snap-start lg:h-screen bg-gray-900">
             <div class="grid content-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-48 lg:grid-cols-12">
                 <div class="mr-auto place-self-center lg:col-span-7">
@@ -196,7 +197,7 @@
             </div>
         </div>
 
-        <!-- add project cards -->
+        <!-- project cards -->
         <div id="projects" class="lg:snap-start lg:h-screen bg-gray-800 py-6 lg:py-24">
             <h1 class="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">My Projects</h1>
             <p class="mb-6 text-lg text-center font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here are some completed projects showcasing my creative solutions and significant contributions.</p>
@@ -271,9 +272,9 @@
 
         </div>
 
+        <!-- Contact/LinkedIn/GitHub -->
         <div id="contact" class="lg:snap-start lg:h-screen bg-white dark:bg-gray-900">
 
-            <!-- add CTA LinkedIn/GitHub -->
             <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div class="mx-auto max-w-screen-sm text-center">
